@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+build/
+/build
+/captures
+out/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Local config (contains SDK path, signing info, etc.)
+local.properties
+
+# Keystore / signing
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Generated APKs / bundles
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Java / Kotlin
+*.class
+hs_err_pid*
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Coverage / profiling
+/coverage
+*.exec
+
+# Misc
+*.bak
+*.swp
